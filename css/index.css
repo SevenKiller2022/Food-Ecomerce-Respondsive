@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    transition: .2s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    justify-self: center;
+}
+
+.Banner{
+    background-color: lightblue;
+    height: 90px;
+    width: 100%;
+    padding: 10px 40px;
+    text-decoration: none;
+    box-shadow: rgb(32, 18, 18)
+}
+
+.logo h1{
+    color: white;
+    font-size: 40px;
+}
+span{
+    color: lightblue;
+    background: white;
+    border-radius: 10px;
+    padding: 1px 9px;
+    font-weight: bold;
+}
+.menu-bar{
+    text-decoration: none;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    padding: 2px 15px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 4px; 
+   
+}
+.menu-bar ul li a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Kh content';
+
+}
+.menu-bar ul li a:hover{
+    color: lightblue;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+    transition: .5s;
+    font-weight: bold;
+   
+}
+.search-bar{
+    margin-top: 15px;
+}
+
+.slide{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 70vh;
+    width: 1150px;
+    margin-top: 10px;
+}
+.slide input{
+    display: none;
+}
+.st{
+    width: 20%;
+    transition: 2s;
+}
+.st img{
+    width: 1150px;
+    height: 70vh;
+}
+
+.nav-m{
+    position: absolute;
+    width: 1150px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+
+.m-btn{
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background: lightblue;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 1850px;
+    margin-top: 83vh;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div{
+    border: 2px solid lightblue;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: lightblue;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: lightblue;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: lightblue;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
